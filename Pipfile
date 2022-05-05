@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+ipykernel = "*"
+pymongo = "*"
+fastapi = "*"
+orjson = "*"
+passlib = "*"
+python-jose = "*"
+python-multipart = "*"
+bcrypt = "*"
+uvicorn = {extras = [ "standard",], version = "*"}
+
+[dev-packages]
+notebook = "*"
+
+[requires]
+python_version = "3.8"
